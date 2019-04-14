@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Fauna+One');
+
+body{
+    font-family: Fauna One;
+}
+
+#titleBar{
+    background: #22313f;
+    color: white;
+
+    text-align: center;
+    
+    margin: 2%;
+    padding: 2%;
+}
