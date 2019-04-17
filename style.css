@@ -4,6 +4,10 @@ body{
     font-family: Fauna One;
 }
 
+#container{
+    margin: 0 250px 0 250px;
+}
+
 #titleBar{
     background: #22313f;
     color: white;
@@ -16,8 +20,36 @@ body{
     border-radius: 12px;
 }
 
+#controls{
+    float: right;
+    padding: 0 150px 350px 150px;
+
+    text-align: center;
+
+    color: white;
+    background: #22313f;
+
+    border-radius: 12px;
+}
+
+.controlButtons{
+    
+    font-family: Fauna One;
+    font-size: 16px;
+
+    outline: none;
+    border: none;
+
+    background: white;
+    color: black;
+
+    padding: 12px;
+
+}
 /* Container for the squares of the game.  */
 #grid-container{
+
+    float: left;
 
     border: #22313f solid 4px;
 
