@@ -22,7 +22,7 @@ body{
 
 #controls{
     float: right;
-    padding: 0 150px 350px 150px;
+    padding: 0 25px 10px 25px;
 
     text-align: center;
 
@@ -30,20 +30,26 @@ body{
     background: #22313f;
 
     border-radius: 12px;
+
 }
 
 .controlButtons{
+
+    width: 50%;
+
+    margin: 10%;
+    padding: 5%;
     
     font-family: Fauna One;
     font-size: 16px;
 
-    outline: none;
+    
     border: none;
 
     background: white;
     color: black;
 
-    padding: 12px;
+    
 
 }
 /* Container for the squares of the game.  */
@@ -59,11 +65,6 @@ body{
     margin: auto;
 
     display: grid;
-
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16, 1fr);
-
-    
 
 }
 
