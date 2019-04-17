@@ -26,3 +26,10 @@ function colorCell(id) {
     let currentCell = document.getElementById(id.toString());
     currentCell.setAttribute('style', 'background-color: black;');
 }
+
+function clearGrid() {
+    let grid = document.getElementsByClassName('grid-item');
+    for(var i = 0; i < grid.length; i++){
+        grid[i].setAttribute('style', 'background-color: white;');    }
+    
+}
