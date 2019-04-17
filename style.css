@@ -12,4 +12,34 @@ body{
     
     margin: 2%;
     padding: 2%;
+
+    border-radius: 12px;
+}
+
+/* Container for the squares of the game.  */
+#grid-container{
+
+    border: #22313f solid 4px;
+
+    width: 600px;
+    height: 600px;
+    
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+
+    
+
+}
+
+/* Styling for each of the individual squares.  */
+
+.grid-item{
+
+    box-sizing: border-box;
+    border: 1px solid #22313f;
+
 }
