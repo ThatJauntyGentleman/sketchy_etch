@@ -19,7 +19,10 @@ function generateGrid() {
         i++;
 
     } while (i != grid);
-
-
 }
 
+function colorCell(id) {
+
+    let currentCell = document.getElementById(id.toString());
+    currentCell.setAttribute('style', 'background-color: black;');
+}
