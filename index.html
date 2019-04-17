@@ -6,7 +6,7 @@
     <title>Etchy Sketch</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body onload="generateGrid()">
+  <body onload="generateGrid(grid=16)">
     <header id="titleBar">
       <h1>Etchy Sketch</h1>
       <p>The classic etch a sketch game.</p>
@@ -15,10 +15,13 @@
       <section id="grid-container"></section>
       <section id="controls">
         <h2>Game - Controls</h2>
-        <button class="controlButtons" onclick="clearGrid()">Clear Grid</button>
+        <div id="buttons">
+            <button class="controlButtons" onclick='generateGrid(grid=16)'>Reset Grid</button>
+            <button class="controlButtons" onclick='generateGrid(resize = true)'>Resize Grid</button>
+            <button class="controlButtons" onclick="">Toggle Color</button>
+        </div>
       </section>
     </section>
-
     <script src="functions.js"></script>
   </body>
 </html>
