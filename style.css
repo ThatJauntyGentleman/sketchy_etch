@@ -1,78 +1,83 @@
+/* Fonts  */
+
 @import url('https://fonts.googleapis.com/css?family=Fauna+One');
 
-body{
-    font-family: Fauna One;
+body {
+  font-family: Fauna One;
 }
 
-#container{
-    margin: 0 250px 0 250px;
+/* Title for the game. */
+
+#titleBar {
+  background: #22313f;
+  color: white;
+
+  text-align: center;
+
+  margin: 2%;
+  padding: 2%;
+
+  border-radius: 12px;
 }
 
-#titleBar{
-    background: #22313f;
-    color: white;
-
-    text-align: center;
-    
-    margin: 2%;
-    padding: 2%;
-
-    border-radius: 12px;
+#container {
+  margin: 0 220px 0 220px;
 }
 
-#controls{
-    float: right;
-    padding: 0 25px 10px 25px;
+/* Container for buttons.  */
 
-    text-align: center;
+#controls {
+  text-align: center;
 
-    color: white;
-    background: #22313f;
+  float: right;
 
-    border-radius: 12px;
+  color: white;
+  background: #22313f;
 
+  padding: 2%;
+  margin-top: 3%;
+
+  border-radius: 12px;
 }
 
-.controlButtons{
+/* Button styling.  */
 
-    width: 50%;
+.controlButtons {
+  padding: 2%;
 
-    margin: 10%;
-    padding: 5%;
-    
-    font-family: Fauna One;
-    font-size: 16px;
+  margin: 6%;
 
-    
-    border: none;
+  width: 50%;
 
-    background: white;
-    color: black;
+  font-family: Fauna One;
+  font-size: 16px;
 
-    
+  border: none;
 
+  background: white;
+  color: black;
 }
+
+.controlButtons:hover {
+  background: lightgray;
+}
+
 /* Container for the squares of the game.  */
-#grid-container{
 
-    float: left;
+#grid-container {
+  float: left;
 
-    border: #22313f solid 4px;
+  border: #22313f solid 4px;
 
-    width: 600px;
-    height: 600px;
-    
-    margin: auto;
+  width: 600px;
+  height: 600px;
 
-    display: grid;
-
+  display: grid;
 }
 
 /* Styling for each of the individual squares.  */
 
-.grid-item{
-
-    box-sizing: border-box;
-    border: 1px solid #22313f;
-
+.grid-item {
+  box-sizing: border-box;
+  border: 1px solid #22313f;
 }
